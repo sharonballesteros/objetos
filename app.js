@@ -41,10 +41,10 @@ let alumno = {
     primaria: {
         nombre: "Octavio Paz",
         comer(comida) {
-            return ahora está comiendo ${comida};
+            return 'ahora está comiendo ${comida}';
         },
         mensaje(mensajeAlumno) {
-            return ${this.nombre} es la Primaria y el alumno tiene que ir a ${mensajeAlumno};
+            return '${this.nombre} es la Primaria y el alumno tiene que ir a ${mensajeAlumno}';
         }
     }
 }
